@@ -17,7 +17,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Frontend <br /> Developer
             </h3>
 
             <span className="services__button" onClick={() => toggleTab(1)}>
@@ -37,40 +37,35 @@ const Services = () => {
                   onClick={() => toggleTab(0)}
                   className="uil uil-times services__modal-close"
                 ></i>
-                <h3 className="services__modal-title">Product Designer</h3>
+                <h3 className="services__modal-title">Frontend Developer</h3>
                 <p className="services__modal-description">
-                  Services with more than 3 years of experience. Providing
-                  quiality work to client and companies.
+                  Services with more than 8 months of experience. Providing
+                  quiality work.
                 </p>
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I develop the user interface.
+                      Designing and implementing user interfaces.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Web page development.
+                      using technologies like HTML, CSS, and JavaScript.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I create ux element interactions.
+                      Ensuring responsive and intuitive user experiences.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I position your company brand.
-                    </p>
-                  </li>
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Design and mockups of products for companies.
+                      Collaborating with UX/UI designers to optimize visuals and
+                      functionality.
                     </p>
                   </li>
                 </ul>
@@ -83,16 +78,16 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Backend <br /> Developer
             </h3>
 
-            <span className="services__button" onClick={() => toggleTab(1)}>
+            <span className="services__button" onClick={() => toggleTab(2)}>
               View More
               <i className="uil uil-arrow-right serices__button-icon"></i>
             </span>
             <div
               className={
-                toggleState === 1
+                toggleState === 2
                   ? "services__modal active-modal"
                   : "services__modal"
               }
@@ -102,34 +97,34 @@ const Services = () => {
                   onClick={() => toggleTab(0)}
                   className="uil uil-times services__modal-close"
                 ></i>
-                <h3 className="services__modal-title">Ui/Ux Designer</h3>
+                <h3 className="services__modal-title">Backend Developer</h3>
                 <p className="services__modal-description">
-                  Services with more than 3 years of experience. Providing
-                  quiality work to client and companies.
+                  Services with more than 6 months of experience. Providing
+                  quiality work.
                 </p>
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I develop the user interface.
+                      Building server-side logic and databases.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Web page development.
+                      using languages such as Node.js, Python, or Java.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I create ux element interactions.
+                      Handling data storage, retrieval, and manipulation.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I position your company brand.
+                      Implementing APIs and ensuring server-side functionality.
                     </p>
                   </li>
                   <li className="services__modal-service">
@@ -148,16 +143,16 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Database <br /> Administrator
             </h3>
 
-            <span className="services__button" onClick={() => toggleTab(1)}>
+            <span className="services__button" onClick={() => toggleTab(3)}>
               View More
               <i className="uil uil-arrow-right serices__button-icon"></i>
             </span>
             <div
               className={
-                toggleState === 1
+                toggleState === 3
                   ? "services__modal active-modal"
                   : "services__modal"
               }
@@ -167,40 +162,44 @@ const Services = () => {
                   onClick={() => toggleTab(0)}
                   className="uil uil-times services__modal-close"
                 ></i>
-                <h3 className="services__modal-title">Visual Designer</h3>
+                <h3 className="services__modal-title">
+                  Database Administrator
+                </h3>
                 <p className="services__modal-description">
-                  Services with more than 3 years of experience. Providing
-                  quiality work to client and companies.
+                  Services with more than 6 months of experience. Providing
+                  quiality work.
                 </p>
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I develop the user interface.
+                      Managing and optimizing database systems.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Web page development.
+                      ensuring efficient data storage and retrieval.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I create ux element interactions.
+                      Designing and implementing database schemas, indexes, and
+                      queries.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      I position your company brand.
+                      Monitoring database performance.
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Design and mockups of products for companies.
+                      addressing issues related to scalability and data
+                      integrity.
                     </p>
                   </li>
                 </ul>

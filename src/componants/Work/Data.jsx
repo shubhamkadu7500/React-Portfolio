@@ -1,9 +1,11 @@
-// import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Ecommerce from "../../assets/Ecommerce.jpg";
+import SurveyForm from "../../assets/SurveyForm.jpg";
+import Tindog from "../../assets/TinDog.jpg";
 import drumkit from "../../assets/drumkit.jpg";
+import Dicee from "../../assets/Dicee.jpg";
+import QuizApp from "../../assets/QuizApp.jpg";
+import PeopleCount from "../../assets/PeopleCount.jpg";
+import SnakeGame from "../../assets/SnakeGame.jpg";
 
 export const projectsData = [
   {
@@ -15,31 +17,52 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: Work2,
-    title: "app movil",
+    image: Dicee,
+    title: "Dicee-Project",
     category: "javascript",
     href: "https://shubhamkadu7500.github.io/Dicee-Project/",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
+    image: Ecommerce,
+    title: "Ecommerce App",
     category: "mern",
-    href: "https://shubhamkadu7500.github.io/Dicee-Project/",
+    href: "https://giddy-gray-coypu.cyclic.app/",
   },
   {
     id: 4,
-    image: Work4,
-    title: "app movil",
-    category: "javascript",
-    href: "https://shubhamkadu7500.github.io/Dicee-Project/",
+    image: SurveyForm,
+    title: "Survey-Form Website",
+    category: "web",
+    href: "https://shubhamkadu7500.github.io/Survay-Form/",
   },
   {
     id: 5,
-    image: Work5,
-    title: "web design",
+    image: Tindog,
+    title: "Tindog Website",
     category: "web",
-    href: "https://shubhamkadu7500.github.io/Dicee-Project/",
+    href: "https://shubhamkadu7500.github.io/Bootstrap-Tindog-Website/",
+  },
+  {
+    id: 6,
+    image: QuizApp,
+    title: "Quiz-App Project",
+    category: "Javascript",
+    href: "https://shubhamkadu7500.github.io/Quiz-App/",
+  },
+  {
+    id: 7,
+    image: PeopleCount,
+    title: "People-Count Website",
+    category: "web",
+    href: "https://shubhamkadu7500.github.io/People-Count/",
+  },
+  {
+    id: 8,
+    image: SnakeGame,
+    title: "Snake Game",
+    category: "Javascript",
+    href: "https://shubhamkadu7500.github.io/Snake-Game/",
   },
 ];
 
