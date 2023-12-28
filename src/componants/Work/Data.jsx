@@ -50,15 +50,15 @@ export const projectsData = [
     category: "Javascript",
     href: "https://shubhamkadu7500.github.io/Quiz-App/",
   },
+  // {
+  //   id: 7,
+  //   image: LoginRegister,
+  //   title: "Login-Register Webpage",
+  //   category: "web",
+  //   href: "https://shubhamkadu7500.github.io/Html-LoginAndRegister/",
+  // },
   {
     id: 7,
-    image: LoginRegister,
-    title: "Login-Register Webpage",
-    category: "web",
-    href: "https://shubhamkadu7500.github.io/Html-LoginAndRegister/",
-  },
-  {
-    id: 8,
     image: SnakeGame,
     title: "Snake Game",
     category: "Javascript",
