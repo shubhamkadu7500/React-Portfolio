@@ -4,7 +4,7 @@ import Tindog from "../../assets/TinDog.jpg";
 import drumkit from "../../assets/drumkit.jpg";
 import Dicee from "../../assets/Dicee.jpg";
 import QuizApp from "../../assets/QuizApp.jpg";
-import PeopleCount from "../../assets/PeopleCount.jpg";
+import LoginRegister from "../../assets/Login.jpg";
 import SnakeGame from "../../assets/SnakeGame.jpg";
 
 export const projectsData = [
@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: 4,
     image: SurveyForm,
-    title: "Survey-Form Website",
+    title: "Survey-Form Webpage",
     category: "web",
     href: "https://shubhamkadu7500.github.io/Survay-Form/",
   },
@@ -52,10 +52,10 @@ export const projectsData = [
   },
   {
     id: 7,
-    image: PeopleCount,
-    title: "People-Count Website",
+    image: LoginRegister,
+    title: "Login-Register Webpage",
     category: "web",
-    href: "https://shubhamkadu7500.github.io/People-Count/",
+    href: "https://shubhamkadu7500.github.io/Html-LoginAndRegister/",
   },
   {
     id: 8,
